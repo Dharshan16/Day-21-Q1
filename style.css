@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Secular+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: #aa876b; */
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    
+    background-color: #000000;
+}
+
+.example{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    /* border: 2px solid red; */
+}
+h1{
+    text-align: center;
+    color: rgb(240, 155, 45);
+    font-family: 'Secular One', sans-serif;
+    font-weight: 900;
+
+}
+
+
+input{
+    width: 80%;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 5px;
+    text-align: center;
+} 
+
+
+
+
+
+.message {
+    text-align: center;
+}
+
+
+.result {
+    width: 80%;
+    color:rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto ;
+    margin-top: 30px;
+    padding: 50px;
+    height: max-content;
+    background-color: #fff !important;
+    border-radius: 10px;
+    border-color: #e4c30c 2px solid;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    
+}
+
+img{
+display: block;
+margin-left: auto;
+margin-right: auto;
+max-width: 40%;
+justify-content: center;    
+}
+
+
+
+/* CSS */
+.button-81 {
+  background-color: #960808;
+  border: 2px solid #e2e8f0;
+  border-radius: 1.5rem;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Basier circle",-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1;
+  padding: 1rem 1.6rem;
+  text-align: center;
+  text-decoration: none #0d172a solid;
+  text-decoration-thickness: auto;
+  transition: all .1s cubic-bezier(.4, 0, .2, 1);
+  box-shadow: 0px 1px 2px rgba(166, 175, 195, 0.25);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  /* width: 80%; */
+}
+
+.button-81:hover {
+  /* background-color: #423704; */
+  background: none;
+  color: #fff;
+}
+
+/* @media (min-width: 768px) {
+  .button-81 {
+    font-size: 1.125rem;
+    padding: 1rem 2rem;
+  }
+} */
